@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminmaster.master.cs" Inherits="Admin_adminmaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 59px;
+        }
+        .style2
+        {
+            height: 35px;
+        }
+        .style3
+        {
+            width: 75%;
+            top: 261px;
+            left: 294px;
+            position: absolute;
+            height: 204px;
+            right: 29px;
+        }
+        .style4
+        {
+            font-size: x-large;
+            font-style: italic;
+            font-family: "Courier New", Courier, monospace;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body background="../images/www.jpg">
+    <form id="form1" runat="server">
+    <div style="height: 173px; top: 15px; left: 69px; position: absolute; width: 1168px">
+        <asp:Image ID="Image1" runat="server" Height="175px" 
+            ImageUrl="~/images/head.jpg" Width="837px" />
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/images/mainpic.jpg" 
+            style="top: 0px; left: 838px; position: absolute; height: 232px; width: 358px" />
+    </div>
+    <div style="top: 192px; left: 271px; position: absolute; height: 54px; width: 636px">
+   
+
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="53px" 
+            ImageUrl="~/images/HOMEBT.jpg" onclick="ImageButton1_Click" Width="111px" />
+        <asp:ImageButton ID="ImageButton3" runat="server" Height="53px" 
+            ImageUrl="~/images/CSBT.jpg" onclick="ImageButton3_Click" />
+        <asp:ImageButton ID="ImageButton4" runat="server" Height="53px" 
+            ImageUrl="~/images/ABTBT.jpg" onclick="ImageButton4_Click" />
+        <asp:ImageButton ID="ImageButton5" runat="server" Height="53px" 
+            ImageUrl="~/images/CNTBT.jpg" onclick="ImageButton5_Click" />
+        <asp:ImageButton ID="ImageButton6" runat="server" Height="53px" 
+            ImageUrl="~/images/SIGNOUTBT.jpg" onclick="ImageButton6_Click" />
+   
+
+    </div>
+    <div style="top: 192px; left: 67px; position: absolute; height: 453px; width: 216px">
+        <table class="style1">
+            <tr>
+                <td class="style2">
+                    <span class="style4">Welcome</span> admin</td>
+            </tr>
+        </table>
+        <asp:ImageButton ID="ImageButton7" runat="server" Height="51px" 
+            ImageUrl="~/images/JPBT.jpg" onclick="ImageButton7_Click" Width="213px" />
+        <br />
+        <asp:ImageButton ID="ImageButton8" runat="server" Height="44px" 
+            ImageUrl="~/images/JSBT.jpg" onclick="ImageButton8_Click" Width="210px" />
+        <br />
+        <asp:ImageButton ID="ImageButton9" runat="server" Height="43px" 
+            ImageUrl="~/images/EXSCHBT.jpg" onclick="ImageButton9_Click" 
+            Width="211px" />
+        <br />
+        <asp:ImageButton ID="ImageButton10" runat="server" Height="43px" 
+            ImageUrl="~/images/ADDQNBT.jpg" onclick="ImageButton10_Click" 
+            Width="209px" />
+        <br />
+        <asp:ImageButton ID="ImageButton11" runat="server" Height="50px" 
+            ImageUrl="~/images/SLBT.jpg" onclick="ImageButton11_Click" Width="212px" />
+        <br />
+        <asp:ImageButton ID="ImageButton13" runat="server" Height="43px" 
+            ImageUrl="~/images/CMSGBT.jpg" onclick="ImageButton13_Click" Width="212px" />
+        <br />
+        <asp:ImageButton ID="ImageButton14" runat="server" Height="43px" 
+            ImageUrl="~/images/CCPBT.jpg" onclick="ImageButton14_Click" Width="214px" />
+        <br />
+    </div>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <br />
+    <br />
+    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <table class="style3">
+        <tr>
+            <td style="background-color: #FFFFFF">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

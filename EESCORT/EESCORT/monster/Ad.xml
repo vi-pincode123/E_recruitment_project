@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>cmp.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>Banner</Keyword>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>corporations.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>Banner1</Keyword>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>carrer.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>Banner2</Keyword>
+    <Impressions>100</Impressions>
+  </Ad>
+</Advertisements>

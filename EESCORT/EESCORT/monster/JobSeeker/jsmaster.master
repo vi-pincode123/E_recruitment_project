@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="jsmaster.master.cs" Inherits="JobSeeker_jsmaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-family: "Courier New", Courier, monospace;
+            font-size: x-large;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body background="../images/www.jpg">
+    <form id="form1" runat="server">
+    <div style="height: 181px">
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/head.jpg" 
+            
+            style="top: 15px; left: 10px; position: absolute; height: 178px; width: 986px" />
+        <div style="top: 264px; left: 244px; position: absolute; height: 78px; width: 1030px">
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div style="top: 260px; left: 7px; position: absolute; height: 356px; width: 215px">
+            <asp:ImageButton ID="ImageButton10" runat="server" Height="40px" 
+                ImageUrl="~/images/NOTBT.jpg" onclick="ImageButton10_Click" Width="212px" />
+            <br />
+            <asp:ImageButton ID="ImageButton11" runat="server" Height="41px" 
+                ImageUrl="~/images/JEXSCBT.jpg" Width="213px" 
+                onclick="ImageButton11_Click" />
+            <br />
+            <asp:ImageButton ID="ImageButton12" runat="server" Height="36px" 
+                ImageUrl="~/images/OEXBT.jpg" Width="214px" 
+                onclick="ImageButton12_Click" />
+            <br />
+            <asp:ImageButton ID="ImageButton13" runat="server" Height="49px" 
+                ImageUrl="~/images/SHLIBT.jpg" Width="215px" 
+                onclick="ImageButton13_Click" />
+            <br />
+            <asp:ImageButton ID="ImageButton14" runat="server" Height="50px" 
+                ImageUrl="~/images/CRBT.jpg" onclick="ImageButton14_Click" Width="215px" />
+            <br />
+            <asp:ImageButton ID="ImageButton15" runat="server" Height="43px" 
+                ImageUrl="~/images/CMSGBT.jpg" onclick="ImageButton15_Click" Width="213px" />
+            <br />
+            <asp:ImageButton ID="ImageButton16" runat="server" Height="49px" 
+                ImageUrl="~/images/CCPBT.jpg" onclick="ImageButton16_Click" Width="212px" />
+            <br />
+            <br />
+        </div>
+&nbsp;<asp:Image ID="Image2" runat="server" ImageUrl="~/images/js.jpg" 
+            
+            style="top: 15px; left: 1000px; position: absolute; height: 238px; width: 307px" />
+    <div style="top: 193px; left: 204px; position: absolute; height: 59px; width: 789px">
+   
+
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="53px" 
+            ImageUrl="~/images/HOMEBT.jpg" onclick="ImageButton1_Click" Width="111px" />
+        <asp:ImageButton ID="ImageButton3" runat="server" Height="53px" 
+            ImageUrl="~/images/CSBT.jpg" onclick="ImageButton3_Click" />
+        <asp:ImageButton ID="ImageButton4" runat="server" Height="53px" 
+            ImageUrl="~/images/ABTBT.jpg" onclick="ImageButton4_Click" />
+        <asp:ImageButton ID="ImageButton5" runat="server" Height="53px" 
+            ImageUrl="~/images/CNTBT.jpg" onclick="ImageButton5_Click" />
+        <asp:ImageButton ID="ImageButton9" runat="server" Height="53px" 
+            ImageUrl="~/images/SIGNOUTBT.jpg" onclick="ImageButton9_Click" Width="126px" />
+   
+
+    </div>
+    </div>
+    <div style="top: 201px; left: 10px; position: absolute; height: 47px; width: 185px; bottom: 90px">
+        <br />
+        <span class="style1">Welcome</span>
+        <asp:Label ID="lb1" runat="server"></asp:Label>
+    </div>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="exam.master.cs" Inherits="JobSeeker_exam" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="height: 188px">
+        <asp:Image ID="Image1" runat="server" Height="185px" 
+            ImageUrl="~/images/head.jpg" Width="749px" />
+        <asp:Image ID="Image2" runat="server" 
+            ImageUrl="~/images/Online_Exam_by_abodemous.jpg" 
+            style="top: 18px; left: 758px; position: absolute; width: 524px; height: 181px" />
+        <div style="top: 287px; left: 274px; position: absolute; height: 145px; width: 1003px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p style="background-color: #000099">
+                    &nbsp;&nbsp;</p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <p>
+    <div style="top: 207px; left: 271px; position: absolute; height: 59px; width: 789px">
+   
+
+        <asp:ImageButton ID="ImageButton10" runat="server" Height="53px" 
+            ImageUrl="~/images/HOMEBT.jpg" onclick="ImageButton1_Click" 
+            Width="111px" />
+        <asp:ImageButton ID="ImageButton2" runat="server" Height="53px" 
+            ImageUrl="~/images/SEARBT.jpg" onclick="ImageButton2_Click" />
+        <asp:ImageButton ID="ImageButton3" runat="server" Height="53px" 
+            ImageUrl="~/images/CSBT.jpg" onclick="ImageButton3_Click" />
+        <asp:ImageButton ID="ImageButton4" runat="server" Height="53px" 
+            ImageUrl="~/images/ABTBT.jpg" onclick="ImageButton4_Click" />
+        <asp:ImageButton ID="ImageButton5" runat="server" Height="53px" 
+            ImageUrl="~/images/CNTBT.jpg" onclick="ImageButton5_Click" />
+        <asp:ImageButton ID="ImageButton9" runat="server" Height="53px" 
+            ImageUrl="~/images/SIGNOUTBT.jpg" onclick="ImageButton9_Click" Width="126px" />
+   
+
+    </div>
+    </p>
+    <p>
+        &nbsp;</p>
+    <div style="width: 259px; top: 203px; left: 10px; position: absolute; height: 312px">
+        <asp:Image ID="Image3" runat="server" ImageUrl="~/images/online-exm1.jpg" 
+            style="width: 259px; top: -1px; left: -1px; position: absolute; height: 171px" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="43px" 
+            ImageUrl="~/images/INSTR.png" Width="257px" />
+        <br />
+    </div>
+    </form>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+</body>
+</html>
